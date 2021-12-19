@@ -81,7 +81,6 @@ display: flex;
 justify-content: space-around;
 border: 2px solid grey;
 padding-top: 100px;
-padding-bottom: 100px;
 }
 .two-columns {
   display: flex;
@@ -109,24 +108,61 @@ padding-bottom: 100px;
   width: 80%;
 }
 .two-columns__span-accent{
-  font-weight: 700;
+  font-weight: 600;
 }
 .digits{
-  border: 2px solid grey;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border: 2px solid red;
   padding-top: 100px;
   padding-bottom: 100px;
 }
 .section-title{
+  width: 60%;
   border: 1px solid green;
+  text-align: center;
+  margin-block-end: 20px;
+  margin-block-start: 0;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
 }
 .section-subtitle{
+  width: 60%;
   border: 1px solid green;
+  text-align: center;
+  margin-block: 0; 
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal; 
 }
 .table{
-  border: 1px solid blueviolet;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1100px;
+  border: 1px solid blueviolet;  
 }
 .table__cell{
+  width: 250px;
   border: 1px solid blue; 
+  margin-top: 60px;
+}
+.table__heading{
+  margin-block: 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+  
+  
+}
+.table__text{
+  margin-block-start: 20px;
+  margin-block-end: 0;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
 }
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
