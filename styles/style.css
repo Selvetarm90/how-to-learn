@@ -36,8 +36,7 @@
   top: 30px;
 }
 .header__title{
-  position: relative;
-  left: 64px;
+  margin-left: 64px;
   width: 730px;
   font-size: 102px;
   line-height: 96px;
@@ -55,7 +54,6 @@
   z-index: 2;
 }
 .header__link{
-  position: absolute;
   text-decoration: none;
   color: #2f80ed;
 }
@@ -78,6 +76,7 @@
   background-color: #2f80ed;
   box-sizing: border-box;
 }
+
 .description{
 display: flex;
 justify-content: space-around;
@@ -275,19 +274,19 @@ padding-top: 100px;
 }
 .footer__column_content_copyright{
   display: flex;
-  position: relative;
   flex-direction: column;
   flex-basis: 711px;
+  justify-content: space-between;
 }
 .logo_place_footer{
-  box-sizing: border-box;
   width: 183px;
   height: 35px;
+  background-image: url(../images/logo_place_footer.svg);
+  background-repeat: no-repeat;
+
 }
 .footer__author{
-  position: absolute;
-  left: 0;
-  bottom: 0;
+  position: relative;
   margin-top: 18px;
   margin-bottom: 18px;
   font-size: 18px;
