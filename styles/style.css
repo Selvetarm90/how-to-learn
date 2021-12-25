@@ -43,6 +43,7 @@
 }
 .header__subtitle{
   position: absolute;
+  margin: 0;
   width: 388px;
   left: 64px;
   bottom: 30px;
@@ -298,6 +299,7 @@ padding-top: 100px;
 }
 .footer__column-heading{
   margin-bottom: 20px;
+  margin-top: 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
@@ -329,4 +331,9 @@ padding-top: 100px;
 .footer__column_content_social{
   display: flex;
   flex-direction: column;
+  list-style-type: none;
+  margin-top: 0;
+  padding-left: 0;
+  margin-bottom: 0;
 }
+
