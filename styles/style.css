@@ -294,6 +294,7 @@ padding-top: 100px;
 .footer__column_content_info{
   display: flex;
   flex-direction: column;
+  
 }
 .footer__column-heading{
   margin-bottom: 20px;
@@ -306,6 +307,9 @@ padding-top: 100px;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+  list-style-type: none;
+  margin-top: 0;
+  padding-left: 0;
 }
 .footer__column-link{
   line-height: 30px;
